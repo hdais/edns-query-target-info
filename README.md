@@ -11,3 +11,11 @@ $ dig _acme-challenge.eqt.name TXT @eqt.hdais.net | grep status
 
    ... status: NXDOMAIN ...
 ```
+
+## Implementation
+### Authoritative server
+[eqt-server](https://github.com/hdais/eqt-server)
+### Full service resolver
+[Unbound forked branch "edns-query-target"](https://github.com/hdais/unbound/tree/edns-query-target)
+
+`git clone -b edns-query-target https://github.com/hdais/unbound/`
