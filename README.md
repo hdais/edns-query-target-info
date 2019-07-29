@@ -1,5 +1,5 @@
 # edns-query-target-info
-prevents subdomain hijacking and enables “name-based” virtual hosting for DNS authoritative server
+enables “name-based” virtual hosting for DNS authoritative server
 
 ## tl;dr
 ```
