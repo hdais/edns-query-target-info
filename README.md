@@ -5,10 +5,14 @@ enables “name-based” virtual hosting for DNS authoritative server
 ```
 $ dig _acme-challenge.algorithm13.net TXT @8.8.8.8 +short
 "hijacked"
+$ dig _esni.algorithm13.net TXT @8.8.8.8 +short
+"legitimate delagation"
 ```
 ```
 $ dig _acme-challenge.algorithm13.net TXT @res-eqt.hdais.net | grep status
 ... status: NXDOMAIN ...
+$ dig _esni.algorithm13.net TXT @res-eqt.hdais.net +short
+"legitimate delagation"
 ```
 
 ## Implementation
