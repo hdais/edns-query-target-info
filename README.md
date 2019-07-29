@@ -3,14 +3,12 @@ enables “name-based” virtual hosting for DNS authoritative server
 
 ## tl;dr
 ```
-$ dig _acme-challenge.eqt.name TXT @8.8.8.8 +short
-
+$ dig _acme-challenge.algorithm13.net TXT @8.8.8.8 +short
 "hijacked"
 ```
 ```
-$ dig _acme-challenge.eqt.name TXT @res-eqt.hdais.net | grep status
-
-   ... status: NXDOMAIN ...
+$ dig _acme-challenge.algorithm13.net TXT @res-eqt.hdais.net | grep status
+... status: NXDOMAIN ...
 ```
 
 ## Implementation
