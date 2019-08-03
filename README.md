@@ -25,7 +25,7 @@ $ dig _esni.algorithm13.net TXT @res-eqt.hdais.net +short
 
  `git clone -b edns-query-target https://github.com/hdais/unbound/`
 
-#### Using `res-eqt.hdais.net`
+#### Use `res-eqt.hdais.net`
 
  `dig _acme-challenge.algorithm13.net TXT @res-eqt.hdais.net`
 
