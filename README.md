@@ -19,7 +19,7 @@ $ dig _esni.algorithm13.net TXT @res-eqt.hdais.net +short
 
 ## Implementation
 ### Authoritative server
-[eqt-server](https://github.com/hdais/eqt-server)
+####[eqt-server](https://github.com/hdais/eqt-server)
 ### Full service resolver
 #### [Unbound forked branch "edns-query-target"](https://github.com/hdais/unbound/tree/edns-query-target)
 
