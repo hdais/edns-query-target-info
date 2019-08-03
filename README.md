@@ -29,4 +29,4 @@ $ dig _esni.algorithm13.net TXT @res-eqt.hdais.net +short
 
  `dig _acme-challenge.algorithm13.net TXT @res-eqt.hdais.net`
 
- (This is an open-resolver, which returns TC=1 on receiving UDP query and accepts TCP queries only)
+ (This is an open-resolver, which returns TC=1 on receiving UDP queries and accepts TCP queries only)
